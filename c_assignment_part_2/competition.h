@@ -1,4 +1,3 @@
-
 /* 
  * File:   competition.h
  * Author: nathan
@@ -37,12 +36,11 @@ typedef struct competitor_data{
     //Pointers to children nodes
     struct competitor_data * left_child; 
     struct competitor_data * right_child; 
-    
-    
+        
 } competitor_node;
 
-typedef competitor_node * competitor_node_ptr; 
 
+typedef competitor_node * competitor_node_ptr; 
 
 /**
  * This function creates a BT using the information provided in the file given
@@ -63,6 +61,12 @@ competitor_node_ptr create_competitor_binary_tree(char * competition_filename,
 void print_competiton_table(competitor_node_ptr competitor_root_node, 
         char * last_update, char* name_of_competition); 
 
+/**
+ * Prints information on contacts 
+ * @param competitor_root_node
+ * @param last_update
+ * @param name_of_competition
+ */
 void print_competiton_information_table(competitor_node_ptr competitor_root_node, 
         char * last_update, char* name_of_competition);
 
@@ -72,6 +76,7 @@ void print_competiton_information_table(competitor_node_ptr competitor_root_node
  * @param competitor_root_node
  */
 void print_a_nodes_competition_stats(competitor_node_ptr competitor_root_node);
+
 
 void print_a_nodes_contact_information(competitor_node_ptr competitor_root_node);
 
