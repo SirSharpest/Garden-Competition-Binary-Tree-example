@@ -34,11 +34,14 @@ int main(int argc, char** argv) {
     tree_top = create_competitor_binary_tree(file_name, last_updated, name_of_competition);
     
  //   print_competitor_nodes(tree_top);
-     print_competiton_table(tree_top, last_updated, name_of_competition);
+    // print_competiton_table(tree_top, last_updated, name_of_competition);
      
-     //traverse_information(tree_top, last_updated, name_of_competition, print_competitor_table);
+    
+    traverse_information(tree_top, last_updated, name_of_competition, print_competiton_table);
+   
     traverse_information(tree_top, last_updated, name_of_competition, print_competiton_information_table);
-     
+    
+
      
     //print_competitor_table(tree_top, last_updated);
     

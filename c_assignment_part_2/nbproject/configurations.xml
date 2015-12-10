@@ -28,12 +28,13 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>hort_2014.txt</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
       <toolsSet>
-        <compilerSet>default</compilerSet>
+        <compilerSet>GNU|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
@@ -45,6 +46,8 @@
       <item path="competition.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="competiton.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hort_2014.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -75,6 +78,8 @@
       <item path="competition.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="competiton.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hort_2014.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>

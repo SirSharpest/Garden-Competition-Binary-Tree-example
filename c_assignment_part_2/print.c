@@ -40,7 +40,8 @@ void print_a_nodes_competition_stats(competitor_node_ptr competitor_root_node){
         total_inches -= (int)(total_inches/INCHES_IN_FOOT) * INCHES_IN_FOOT;
     }
     
-    printf("%-23s %-4u  %4dft  %-4.1fin %4dft  %4.1fin  %4dft  %-4.1fin %4dft  %-4.1fin \n",
+    printf("%-23s %-4u  %4dft  %-4.1fin %4dft  %4.1fin  %4dft "
+            " %-4.1fin %4dft  %-4.1fin \n",
             competitor_root_node->name,
             competitor_root_node->competitor_number,
             cucumber_feet,

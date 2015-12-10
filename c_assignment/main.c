@@ -24,7 +24,8 @@ int main(int argc, char** argv) {
     char name_of_competition[MAX_INPUT_LENGTH];
     char file_name[MAX_INPUT_LENGTH];
     
-    printf("Please enter in the name of the file you wish to use for this program's data\n");
+    printf("Please enter in the name of the file you wish to use for"
+            " this program's data\n");
     scanf("%s", file_name);
     
     //Root node defined 
